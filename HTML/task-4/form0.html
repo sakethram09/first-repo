@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form example 0</title>
+</head>
+
+<body>
+    <form>
+
+        <table align="center">
+            <caption>
+                <h1>Registration Form</h1>
+            </caption>
+            <tr>
+                <th><label for="id1">First Name</label></th>
+                <th><label for="id2">Last Name</label></th>
+            </tr>
+            <tr>
+                <td><input type="text" id="id1"></td>
+                <td><input type="text" id="id2"></td>
+            </tr>
+            <tr>
+                <th><label for="id3">Birthday</label></th>
+                <th><label for="id4">Gender</label></th>
+            </tr>
+            <tr>
+                <td><input type="date" id="id3"></td>
+                <td>
+                    <fieldset role="radiogroup" border="0">
+                        <input type="radio" id="id4" name="gender" value="Male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="id4" name="gender" value="Female">
+                        <label for="female">Female</label>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="id5">Email</label>
+                </th>
+                <th>
+                    <label for="id6">Phone Number</label>
+                </th>
+            </tr>
+            <tr>
+                <td><input type="email" id="id5"></td>
+                <td><input type="number" id="id6"></td>
+            </tr>
+            <tr>
+                <th><label for="id7">Subject</label></th>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <select name="Subject" id="id7">
+                        <option value="">Choose option</option>
+                        <option value="python">Python</option>
+                        <option value="java">Java</option>
+                        <option value="c">C</option>
+                        <option value="c++">C++</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit" id="id8"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
